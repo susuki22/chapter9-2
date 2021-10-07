@@ -74,13 +74,18 @@ footer{
   main{
     width: 100%;
     display: block;
-    padding-left:  30%;
-    padding-right: 30%;
+    padding-left:  25%;
+    padding-right: 25%;
   }
 
   .step-box{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     margin-bottom: 30px;
+  }
+
+  .step-box:last-child{
+    margin: 0 auto;
   }
 
 }
